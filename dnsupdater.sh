@@ -22,7 +22,7 @@ while true ; do
     echo `date +"%Y-%m-%d% %H:%M:%S %A"`
     echo "update my ip $IPBOX"
 
-    wget -q -O/dev/null 'https://MP4838-FREE:PGOiml9489@www.bookmyname.com/dyndns/?hostname=chezmoi.countermatt.net&myip='$IPBOX
+    wget -q -O/dev/null 'https://identifiant:motdepasse@www.bookmyname.com/dyndns/?hostname=chezmoi.countermatt.net&myip='$IPBOX
 
 
     # wget exit code 0 => No problems occurred.
